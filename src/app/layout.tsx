@@ -109,7 +109,7 @@ export default function RootLayout({
         "sameAs": [
           "https://github.com/gaurabpandey",
           "https://linkedin.com/in/gaurabpandey",
-          "https://twitter.com/gaurabpandey"
+          "https://www.instagram.com/gaurabpandey798/"
         ],
         "knowsAbout": [
           "Flutter",

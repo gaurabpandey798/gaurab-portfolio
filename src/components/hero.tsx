@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Terminal, GitBranch, Cpu, Code2 } from "lucide-react";
 
@@ -39,7 +39,7 @@ const socials = [
   { icon: <FaGithub size={22} />, key: "g", href: "https://github.com/gaurabpandey", label: "Gaurab Pandey GitHub Profile" },
   { icon: <FaLinkedin size={22} />, key: "l", href: "https://linkedin.com/in/gaurabpandey", label: "Gaurab Pandey LinkedIn Profile" },
   { icon: <MdEmail size={24} />, key: "m", href: "mailto:info.gaurabpandey@gmail.com", label: "Gaurab Pandey Email Address" },
-  { icon: <FaTwitter size={22} />, key: "t", href: "https://twitter.com/gaurabpandey", label: "Gaurab Pandey Twitter Profile" },
+  { icon: <FaInstagram size={22} />, key: "i", href: "https://www.instagram.com/gaurabpandey798/", label: "Gaurab Pandey Instagram Profile" },
 ];
 
 export default function Hero() {
