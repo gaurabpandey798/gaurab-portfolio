@@ -97,13 +97,13 @@ export default function Contact() {
             <div>
               <p className="text-[#152d1b] font-bold text-[15px] mb-4">Let&apos;s connect</p>
               <div className="flex items-center gap-3">
-                <a href="https://github.com/gaurabpandey798" aria-label="GitHub Profile" className="w-[48px] h-[48px] bg-white rounded-[16px] border border-[#e8e6dc] shadow-sm flex items-center justify-center text-[#152d1b] hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+                <a href="https://github.com/gaurabpandey798" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="w-[48px] h-[48px] bg-white rounded-[16px] border border-[#e8e6dc] shadow-sm flex items-center justify-center text-[#152d1b] hover:-translate-y-1 hover:shadow-md transition-all duration-300">
                   <FaGithub size={20} />
                 </a>
-                <a href="https://www.linkedin.com/in/gaurabpandey-dev" aria-label="LinkedIn Profile" className="w-[48px] h-[48px] bg-white rounded-[16px] border border-[#e8e6dc] shadow-sm flex items-center justify-center text-[#152d1b] hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+                <a href="https://www.linkedin.com/in/gaurabpandey-dev" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="w-[48px] h-[48px] bg-white rounded-[16px] border border-[#e8e6dc] shadow-sm flex items-center justify-center text-[#152d1b] hover:-translate-y-1 hover:shadow-md transition-all duration-300">
                   <FaLinkedinIn size={18} />
                 </a>
-                <a href="https://www.instagram.com/gaurabpandey798/" aria-label="Instagram Profile" className="w-[48px] h-[48px] bg-white rounded-[16px] border border-[#e8e6dc] shadow-sm flex items-center justify-center text-[#152d1b] hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+                <a href="https://www.instagram.com/gaurabpandey798/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile" className="w-[48px] h-[48px] bg-white rounded-[16px] border border-[#e8e6dc] shadow-sm flex items-center justify-center text-[#152d1b] hover:-translate-y-1 hover:shadow-md transition-all duration-300">
                   <FaInstagram size={18} />
                 </a>
                 <a href="mailto:info.gaurabpandey@gmail.com" aria-label="Email Me" className="w-[48px] h-[48px] bg-white rounded-[16px] border border-[#e8e6dc] shadow-sm flex items-center justify-center text-[#3a6645] hover:-translate-y-1 hover:shadow-md transition-all duration-300">

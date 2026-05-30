@@ -238,6 +238,8 @@ export default function Hero() {
                 <a
                   key={key}
                   href={href}
+                  target={href.startsWith("mailto:") ? undefined : "_blank"}
+                  rel={href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
                   aria-label={label}
                   className="w-[52px] h-[52px] rounded-xl bg-white text-[#0f2818] flex items-center justify-center hover:-translate-y-1.5 hover:text-[#5c8a66] hover:border-[#5c8a66] border border-transparent shadow-[0_4px_15px_rgba(0,0,0,0.06)] hover:shadow-[0_10px_25px_rgba(44,78,53,0.15)] transition-all duration-300"
                 >
