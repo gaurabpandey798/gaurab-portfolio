@@ -107,8 +107,8 @@ export default function RootLayout({
           "name": "Madan Bhandari Memorial College"
         },
         "sameAs": [
-          "https://github.com/gaurabpandey",
-          "https://linkedin.com/in/gaurabpandey",
+          "https://github.com/gaurabpandey798",
+          "https://www.linkedin.com/in/gaurabpandey-dev",
           "https://www.instagram.com/gaurabpandey798/"
         ],
         "knowsAbout": [

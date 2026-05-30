@@ -38,10 +38,10 @@ export default function Footer() {
               I design, build and deliver digital solutions that are fast, user-friendly and impactful. Let&apos;s create something amazing together.
             </p>
             <div className="flex items-center gap-3">
-              <a href="https://github.com/gaurabpandey" aria-label="GitHub Profile" className="w-[44px] h-[44px] bg-white rounded-[14px] border border-[#e8e6dc] shadow-sm flex items-center justify-center text-[#152d1b] hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+              <a href="https://github.com/gaurabpandey798" aria-label="GitHub Profile" className="w-[44px] h-[44px] bg-white rounded-[14px] border border-[#e8e6dc] shadow-sm flex items-center justify-center text-[#152d1b] hover:-translate-y-1 hover:shadow-md transition-all duration-300">
                 <FaGithub size={18} />
               </a>
-              <a href="https://linkedin.com/in/gaurabpandey" aria-label="LinkedIn Profile" className="w-[44px] h-[44px] bg-white rounded-[14px] border border-[#e8e6dc] shadow-sm flex items-center justify-center text-[#152d1b] hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+              <a href="https://www.linkedin.com/in/gaurabpandey-dev" aria-label="LinkedIn Profile" className="w-[44px] h-[44px] bg-white rounded-[14px] border border-[#e8e6dc] shadow-sm flex items-center justify-center text-[#152d1b] hover:-translate-y-1 hover:shadow-md transition-all duration-300">
                 <FaLinkedinIn size={16} />
               </a>
               <a href="https://www.instagram.com/gaurabpandey798/" aria-label="Instagram Profile" className="w-[44px] h-[44px] bg-white rounded-[14px] border border-[#e8e6dc] shadow-sm flex items-center justify-center text-[#152d1b] hover:-translate-y-1 hover:shadow-md transition-all duration-300">

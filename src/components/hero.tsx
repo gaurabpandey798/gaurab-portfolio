@@ -36,8 +36,8 @@ const floatAnimation3 = {
 };
 
 const socials = [
-  { icon: <FaGithub size={22} />, key: "g", href: "https://github.com/gaurabpandey", label: "Gaurab Pandey GitHub Profile" },
-  { icon: <FaLinkedin size={22} />, key: "l", href: "https://linkedin.com/in/gaurabpandey", label: "Gaurab Pandey LinkedIn Profile" },
+  { icon: <FaGithub size={22} />, key: "g", href: "https://github.com/gaurabpandey798", label: "Gaurab Pandey GitHub Profile" },
+  { icon: <FaLinkedin size={22} />, key: "l", href: "https://www.linkedin.com/in/gaurabpandey-dev", label: "Gaurab Pandey LinkedIn Profile" },
   { icon: <MdEmail size={24} />, key: "m", href: "mailto:info.gaurabpandey@gmail.com", label: "Gaurab Pandey Email Address" },
   { icon: <FaInstagram size={22} />, key: "i", href: "https://www.instagram.com/gaurabpandey798/", label: "Gaurab Pandey Instagram Profile" },
 ];
