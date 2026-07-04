@@ -58,7 +58,7 @@ export default function Footer() {
             <h4 className="text-[#3a6645] font-bold text-[16px] mb-6">Quick Links</h4>
             <div className="flex flex-col gap-4">
               {['Home', 'About', 'Projects', 'Journey', 'Contact'].map((link) => (
-                <a key={link} href={`#${link.toLowerCase()}`} className="flex items-center gap-3 text-[#525252] font-medium hover:text-[#152d1b] transition-colors group w-max">
+                <a key={link} href={`/#${link.toLowerCase()}`} className="flex items-center gap-3 text-[#525252] font-medium hover:text-[#152d1b] transition-colors group w-max">
                   <FiChevronRight className="text-[#a4c0a9] group-hover:translate-x-1 transition-transform" />
                   {link}
                 </a>

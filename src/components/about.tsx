@@ -43,7 +43,7 @@ export default function About() {
 
           {/* Button and Scribble */}
           <div className="flex items-center gap-6 mt-6">
-            <a href="#contact" className="bg-[#152d1b] hover:bg-[#0e2013] text-white px-8 py-4 rounded-xl text-[16px] font-semibold transition-all duration-300 flex items-center gap-3 shadow-[0_10px_20px_-10px_rgba(21,45,27,0.5)] w-fit">
+            <a href="/#contact" className="bg-[#152d1b] hover:bg-[#0e2013] text-white px-8 py-4 rounded-xl text-[16px] font-semibold transition-all duration-300 flex items-center gap-3 shadow-[0_10px_20px_-10px_rgba(21,45,27,0.5)] w-fit">
               Let&apos;s Connect
               <span className="font-light text-xl">→</span>
             </a>

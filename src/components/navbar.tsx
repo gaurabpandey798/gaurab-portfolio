@@ -49,7 +49,7 @@ export default function Navbar() {
       <div className="container-custom h-20 flex items-center justify-between">
 
         {/* Logo */}
-        <Link href="#home" className="flex items-center gap-3">
+        <Link href="/#home" className="flex items-center gap-3">
           <div className="h-11 w-11 rounded-full overflow-hidden shadow-sm flex items-center justify-center">
             <Image
               src="/logo.png"
@@ -71,7 +71,7 @@ export default function Navbar() {
             return (
               <Link
                 key={item}
-                href={`#${item.toLowerCase()}`}
+                href={`/#${item.toLowerCase()}`}
                 className={`relative text-[15px] font-bold transition-colors duration-300 ${
                   isActive ? "text-[#3a6645]" : "text-[#525252] hover:text-[#152d1b]"
                 }`}
