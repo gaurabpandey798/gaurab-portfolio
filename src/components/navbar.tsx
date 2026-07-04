@@ -53,7 +53,7 @@ export default function Navbar() {
           <div className="h-11 w-11 rounded-full overflow-hidden shadow-sm flex items-center justify-center">
             <Image
               src="/logo.png"
-              alt="Gaurab Pandey Logo"
+              alt="Gaurab Pandey — Full Stack Software Developer & SEO Expert Nepal Portfolio Logo"
               width={44}
               height={44}
               className="h-full w-full object-cover"

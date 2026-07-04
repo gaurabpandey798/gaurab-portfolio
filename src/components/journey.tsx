@@ -120,8 +120,12 @@ export default function Journey() {
           </p>
 
           {/* Tabs */}
-          <div className="flex flex-wrap items-center gap-2 mt-8">
+          <div className="flex flex-wrap items-center gap-2 mt-8" role="tablist" aria-label="Journey selectors">
             <button
+              role="tab"
+              aria-selected={activeTab === "dev"}
+              aria-controls="journey-tab-panel"
+              id="dev-journey-tab"
               onClick={() => setActiveTab("dev")}
               className={`flex items-center gap-2 px-6 py-3.5 rounded-full text-[14px] font-bold transition-all duration-300 ${
                 activeTab === "dev"
@@ -133,6 +137,10 @@ export default function Journey() {
               Development Journey
             </button>
             <button
+              role="tab"
+              aria-selected={activeTab === "edu"}
+              aria-controls="journey-tab-panel"
+              id="edu-journey-tab"
               onClick={() => setActiveTab("edu")}
               className={`flex items-center gap-2 px-6 py-3.5 rounded-full text-[14px] font-bold transition-all duration-300 ${
                 activeTab === "edu"
@@ -147,7 +155,7 @@ export default function Journey() {
         </div>
 
         {/* Timeline Layout */}
-        <div className="relative mt-8">
+        <div className="relative mt-8" id="journey-tab-panel" role="tabpanel" aria-labelledby={activeTab === "dev" ? "dev-journey-tab" : "edu-journey-tab"}>
           
           {/* Vertical Line */}
           <div className="absolute left-[30px] md:left-[160px] top-4 bottom-4 w-[2px] bg-[#3a6645] opacity-50" />

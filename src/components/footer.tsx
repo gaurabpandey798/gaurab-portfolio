@@ -23,7 +23,7 @@ export default function Footer() {
               <div className="w-14 h-14 rounded-full overflow-hidden shadow-sm flex items-center justify-center shrink-0">
                 <Image
                   src="/logo.png"
-                  alt="Gaurab Pandey Logo"
+                  alt="Gaurab Pandey — Full Stack Software Developer & SEO Expert Nepal Brand Logo"
                   width={56}
                   height={56}
                   className="h-full w-full object-cover"
@@ -63,6 +63,10 @@ export default function Footer() {
                   {link}
                 </a>
               ))}
+              <a href="/blog" className="flex items-center gap-3 text-[#525252] font-medium hover:text-[#152d1b] transition-colors group w-max">
+                <FiChevronRight className="text-[#a4c0a9] group-hover:translate-x-1 transition-transform" />
+                Blog
+              </a>
             </div>
           </div>
 

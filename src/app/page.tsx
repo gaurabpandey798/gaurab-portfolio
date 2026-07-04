@@ -9,15 +9,17 @@ import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <>
       <Navbar />
-      <Hero />
-      <Services />
-      <About />
-      <Projects />
-      <Journey />
-      <Contact />
+      <main className="overflow-hidden">
+        <Hero />
+        <Services />
+        <About />
+        <Projects />
+        <Journey />
+        <Contact />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 }

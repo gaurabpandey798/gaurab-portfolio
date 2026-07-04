@@ -43,10 +43,10 @@ export default function About() {
 
           {/* Button and Scribble */}
           <div className="flex items-center gap-6 mt-6">
-            <button className="bg-[#152d1b] hover:bg-[#0e2013] text-white px-8 py-4 rounded-xl text-[16px] font-semibold transition-all duration-300 flex items-center gap-3 shadow-[0_10px_20px_-10px_rgba(21,45,27,0.5)]">
+            <a href="#contact" className="bg-[#152d1b] hover:bg-[#0e2013] text-white px-8 py-4 rounded-xl text-[16px] font-semibold transition-all duration-300 flex items-center gap-3 shadow-[0_10px_20px_-10px_rgba(21,45,27,0.5)] w-fit">
               Let&apos;s Connect
               <span className="font-light text-xl">→</span>
-            </button>
+            </a>
             <svg
               width="120"
               height="40"
@@ -102,7 +102,7 @@ export default function About() {
             <div className="relative z-10 flex justify-center px-8 pb-0 items-end min-h-[500px]">
               <Image
                 src="/gaurab-pandey-about.png"
-                alt="Gaurab Pandey — Premium Flutter Developer and UI/UX Designer from Kathmandu, Nepal"
+                alt="Gaurab Pandey — Full Stack Software Developer, SEO Specialist, and QA Engineer in Kathmandu, Nepal"
                 width={480}
                 height={600}
                 className="object-cover rounded-[32px] drop-shadow-2xl"

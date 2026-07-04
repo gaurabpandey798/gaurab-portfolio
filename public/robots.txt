@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /_next/
-Disallow: /static/
-
-Sitemap: https://gaurabpandey.com.np/sitemap.xml
