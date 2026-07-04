@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FaGraduationCap, FaGlobe, FaDatabase, FaReact, FaJava, FaLeaf, FaMapMarkerAlt } from "react-icons/fa";
+import { FaGraduationCap, FaGlobe, FaDatabase, FaReact, FaJava, FaLeaf, FaMapMarkerAlt, FaSearch, FaCheckCircle } from "react-icons/fa";
 import { SiFlutter } from "react-icons/si";
 import { BiBookBookmark } from "react-icons/bi";
 import { PiCertificateFill } from "react-icons/pi";
@@ -32,11 +32,25 @@ const devJourney = [
     rightIcon: <FaReact size={30} />,
   },
   {
+    year: "2023",
+    title: "Began specializing in SEO and website optimization",
+    desc: "Focused on technical & on-page SEO, Google Search Console, and boosting performance metrics such as Core Web Vitals.",
+    leftIcon: <FaSearch size={20} />,
+    rightIcon: <FaSearch size={26} />,
+  },
+  {
     year: "2024",
     title: "Started exploring other programming languages like Java, .NET",
     desc: "Expanded my skills by learning backend-oriented languages to strengthen my problem-solving abilities.",
     leftIcon: <FaJava size={24} />,
     rightIcon: <span className="font-mono font-black text-[24px]">{"{}"}</span>,
+  },
+  {
+    year: "2024",
+    title: "Integrated Quality Assurance & Software Testing standard practices",
+    desc: "Mastered manual testing, functional and regression workflows, API testing, and bug tracking methodologies for robust releases.",
+    leftIcon: <FaCheckCircle size={22} />,
+    rightIcon: <FaCheckCircle size={28} />,
   },
   {
     year: "2025",

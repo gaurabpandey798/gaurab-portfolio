@@ -168,7 +168,7 @@ export default function Hero() {
             className="font-black text-[#0f2818] leading-[0.95] tracking-tight select-none drop-shadow-sm"
             style={{ fontSize: "clamp(3.5rem, 8vw, 7.5rem)" }}
           >
-            Gaurab<span className="sr-only"> Pandey — Premium Flutter Developer, UI/UX Designer &amp; Web Developer from Nepal</span>
+            Gaurab<span className="sr-only"> Pandey — Full Stack Software Developer specializing in Flutter, Spring Boot, REST APIs, SEO, and Quality Assurance</span>
           </h1>
 
           {/* Role + underline */}
@@ -177,7 +177,7 @@ export default function Hero() {
               className="font-bold text-[#5c8a66] leading-tight relative z-10"
               style={{ fontSize: "clamp(1.75rem, 3vw, 3rem)" }}
             >
-              Software Developer <span className="sr-only">| Flutter Specialist &amp; Designer Kathmandu</span>
+              Software Developer <span className="sr-only">| Full Stack Developer specializing in Flutter, Spring Boot, REST APIs, SEO, and QA</span>
             </h2>
             {/* Hand-drawn double underline */}
             <svg
@@ -207,9 +207,9 @@ export default function Hero() {
             className="mb-10 space-y-1.5 font-medium text-[#525252]"
             style={{ fontSize: "clamp(1rem, 1.5vw, 1.25rem)", lineHeight: "1.6" }}
           >
-            <p>I design, build and deliver digital solutions.</p>
-            <p>From stunning websites to powerful web apps</p>
-            <p>and cross-platform mobile applications.</p>
+            <p>Full Stack Software Developer specializing in</p>
+            <p>Flutter, Spring Boot, REST APIs, SEO,</p>
+            <p>and Quality Assurance.</p>
           </div>
 
           {/* CTA Buttons */}
@@ -258,7 +258,7 @@ export default function Hero() {
           <div className="relative w-full max-w-[900px] h-[95%] lg:h-[100%] flex justify-center lg:justify-start items-end">
             <Image
               src="/gaurab-pandey-flutter-developer.png"
-              alt="Gaurab Pandey — Premium Flutter Developer, UI/UX Designer, and Web App Developer from Kathmandu, Nepal"
+              alt="Gaurab Pandey — Full Stack Software Developer specializing in Flutter, Spring Boot, REST APIs, SEO, and Quality Assurance"
               fill
               priority
               quality={100}

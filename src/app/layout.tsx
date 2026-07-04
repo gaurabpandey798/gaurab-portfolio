@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gaurab Pandey — Flutter Developer & UI/UX Designer from Nepal",
-  description: "Official portfolio of Gaurab Pandey, a premium Flutter Developer, UI/UX Designer, Website & App Developer based in Kathmandu, Nepal. Building high-performance cross-platform apps and modern web solutions.",
+  title: "Gaurab Pandey — Full Stack Software Developer | Flutter, Spring Boot, SEO & QA",
+  description: "Official portfolio of Gaurab Pandey, a Full Stack Software Developer specializing in Flutter, Spring Boot, REST APIs, SEO, and Quality Assurance based in Kathmandu, Nepal.",
   keywords: [
     "Gaurab Pandey",
     "Gaurab Pandey Nepal",
@@ -27,7 +27,12 @@ export const metadata: Metadata = {
     "Software Engineer Nepal",
     "Web Developer Kathmandu",
     "Spring Boot Developer Nepal",
-    "Gaurab Pandey App Developer"
+    "Gaurab Pandey App Developer",
+    "Full Stack Developer Nepal",
+    "SEO Specialist Kathmandu",
+    "QA Engineer Nepal",
+    "Spring Boot Developer Kathmandu",
+    "REST API Developer Nepal"
   ],
   authors: [{ name: "Gaurab Pandey", url: "https://gaurabpandey.com.np" }],
   creator: "Gaurab Pandey",
@@ -50,8 +55,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://gaurabpandey.com.np",
-    title: "Gaurab Pandey — Flutter Developer, Designer, Website & App Developer",
-    description: "Premium portfolio of Gaurab Pandey — Flutter Developer, UI/UX Designer, and Web Developer from Nepal. Explore projects, skills, and coding journey.",
+    title: "Gaurab Pandey — Full Stack Software Developer, Flutter, SEO, & QA",
+    description: "Official portfolio of Gaurab Pandey — Full Stack Software Developer specializing in Flutter, Spring Boot, REST APIs, SEO, and Quality Assurance.",
     siteName: "Gaurab Pandey Portfolio",
     images: [
       {
@@ -64,8 +69,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gaurab Pandey — Flutter Developer & UI/UX Designer from Nepal",
-    description: "Premium Flutter Developer and UI/UX Designer from Nepal. Exploring web, mobile, and full-stack solutions.",
+    title: "Gaurab Pandey — Full Stack Software Developer specializing in Flutter, Spring Boot, SEO, & QA",
+    description: "Full Stack Software Developer specializing in Flutter, Spring Boot, REST APIs, SEO, and Quality Assurance.",
     images: ["https://gaurabpandey.com.np/og-image.png"],
     creator: "@gaurabpandey",
   },
@@ -93,10 +98,10 @@ export default function RootLayout({
         "@type": "Person",
         "@id": "https://gaurabpandey.com.np/#person",
         "name": "Gaurab Pandey",
-        "jobTitle": "Flutter Developer & UI/UX Designer",
+        "jobTitle": "Full Stack Software Developer",
         "url": "https://gaurabpandey.com.np",
         "image": "https://gaurabpandey.com.np/gaurab-pandey-about.png",
-        "description": "Gaurab Pandey is a Flutter Developer, UI/UX Designer, and Full Stack Website & App Developer from Kathmandu, Nepal.",
+        "description": "Gaurab Pandey is a Full Stack Software Developer specializing in Flutter, Spring Boot, REST APIs, SEO, and Quality Assurance.",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Kathmandu",
@@ -122,7 +127,31 @@ export default function RootLayout({
           "Spring Boot",
           "Java",
           "MySQL",
-          "PHP"
+          "PHP",
+          "REST APIs",
+          "SEO",
+          "Technical SEO",
+          "On-Page SEO",
+          "Keyword Research",
+          "Google Search Console",
+          "Performance Optimization",
+          "Core Web Vitals",
+          "SEO Audits",
+          "Quality Assurance",
+          "Manual Testing",
+          "Functional Testing",
+          "Regression Testing",
+          "API Testing",
+          "Test Case Design",
+          "Bug Reporting",
+          "Usability Testing",
+          "Git",
+          "GitHub",
+          "Android Studio",
+          "IntelliJ IDEA",
+          "Postman",
+          "Figma",
+          "VS Code"
         ]
       },
       {
@@ -130,7 +159,7 @@ export default function RootLayout({
         "@id": "https://gaurabpandey.com.np/#website",
         "url": "https://gaurabpandey.com.np",
         "name": "Gaurab Pandey | Portfolio",
-        "description": "Premium developer portfolio of Gaurab Pandey — Flutter Developer, UI/UX Designer, and Web Developer from Nepal.",
+        "description": "Premium developer portfolio of Gaurab Pandey — Full Stack Software Developer specializing in Flutter, Spring Boot, REST APIs, SEO, and Quality Assurance.",
         "publisher": {
           "@id": "https://gaurabpandey.com.np/#person"
         }

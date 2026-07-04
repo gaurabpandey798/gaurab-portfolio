@@ -1,27 +1,34 @@
 import {
-  Code2,
-  PenTool,
   Smartphone,
+  Server,
+  Search,
+  ShieldCheck,
 } from "lucide-react";
 
 const services = [
   {
-    title: "Web Designing",
+    title: "Flutter Development",
     description:
-      "Crafting modern responsive and user-friendly website designs.",
-    icon: PenTool,
-  },
-  {
-    title: "Web Development",
-    description:
-      "Building scalable high-performance web applications.",
-    icon: Code2,
-  },
-  {
-    title: "Mobile App Development",
-    description:
-      "Developing smooth cross-platform mobile applications.",
+      "Cross-platform mobile applications with scalable architecture and modern UI.",
     icon: Smartphone,
+  },
+  {
+    title: "Backend Development",
+    description:
+      "Spring Boot, REST APIs, authentication, and database development.",
+    icon: Server,
+  },
+  {
+    title: "SEO Optimization",
+    description:
+      "Technical SEO, performance optimization, and search visibility improvements.",
+    icon: Search,
+  },
+  {
+    title: "Quality Assurance",
+    description:
+      "Manual testing, API validation, regression testing, and software quality improvement.",
+    icon: ShieldCheck,
   },
 ];
 
@@ -37,7 +44,7 @@ export default function Services() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service) => (
             <div
               key={service.title}
@@ -46,12 +53,9 @@ export default function Services() {
               <div className="w-16 h-16 rounded-[20px] bg-[#eaf2e5] flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
                 <service.icon className="text-[#3a6645] w-7 h-7" />
               </div>
-              <h3 className="text-[24px] font-black text-[#152d1b] mb-4 tracking-tight">
+              <h3 className="text-[24px] font-black text-[#152d1b] tracking-tight">
                 {service.title}
               </h3>
-              <p className="text-[#525252] text-[16px] leading-[1.6] font-medium">
-                {service.description}
-              </p>
             </div>
           ))}
         </div>

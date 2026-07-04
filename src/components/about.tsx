@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { FaStar, FaJava } from "react-icons/fa";
 import { SiDart, SiFlutter, SiSpringboot, SiFirebase, SiMysql } from "react-icons/si";
 import { BiCalendar, BiBriefcase, BiTrophy } from "react-icons/bi";
+import { Smartphone, Server, Globe, Search, ShieldCheck, Wrench } from "lucide-react";
 
 export default function About() {
   return (
@@ -33,10 +34,10 @@ export default function About() {
           {/* Description */}
           <div className="space-y-6 text-[#525252] text-[16px] md:text-[18px] leading-[1.6] font-medium">
             <p>
-              I&apos;m a passionate software developer who loves turning ideas into clean, efficient and user-focused digital solutions.
+              I&apos;m a passionate Full Stack Software Developer specializing in Flutter, Spring Boot, REST APIs, SEO, and Quality Assurance.
             </p>
             <p>
-              I enjoy building websites, web applications and mobile applications that not only look great but also solve real-world problems.
+              I build high-performance web and mobile applications that not only look great but are also robust, search-optimized, and thoroughly tested.
             </p>
           </div>
 
@@ -75,7 +76,7 @@ export default function About() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
             {[
               { icon: <BiCalendar className="w-6 h-6" />, title: "1+", desc: "Years of\nExperience" },
-              { icon: <BiBriefcase className="w-6 h-6" />, title: "20+", desc: "Projects\nCompleted" },
+              { icon: <BiBriefcase className="w-6 h-6" />, title: "10+", desc: "Projects\nCompleted" },
               { icon: <BiTrophy className="w-6 h-6" />, title: "10+", desc: "Happy\nClients" },
               { icon: <span className="text-xl font-black font-mono">{"</>"}</span>, title: "100%", desc: "Dedication" },
             ].map((stat, i) => (
@@ -134,6 +135,97 @@ export default function About() {
         </div>
 
       </div>
+
+      {/* ── Skills & Expertise Section ── */}
+      <div className="mx-auto max-w-[1200px] px-6 lg:px-12 mt-20 pt-16 border-t border-[#e8e6dc]/60 relative z-10">
+        <div className="flex items-center gap-3 mb-4">
+          <div className="w-2.5 h-2.5 rounded-full bg-[#3a6645]" />
+          <h3 className="text-[#3a6645] font-bold tracking-[2px] uppercase text-[12px]">
+            Skills &amp; Expertise <span className="sr-only">- Gaurab Pandey Technical Competencies</span>
+          </h3>
+        </div>
+        <h2 className="text-[40px] md:text-[48px] font-black text-[#152d1b] leading-[1.1] tracking-tight mb-8">
+          My Technical <span className="text-[#3a6645]">Skills</span>
+        </h2>
+        
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {skillsCategories.map((category) => (
+            <div
+              key={category.title}
+              className="bg-white border border-[#e8e6dc] p-8 rounded-[32px] shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(21,45,27,0.08)] transition-all duration-300 hover:-translate-y-1.5 group flex flex-col"
+            >
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-12 h-12 rounded-[16px] bg-[#eaf2e5] flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shrink-0">
+                  <category.icon className="text-[#3a6645] w-5 h-5" />
+                </div>
+                <h4 className="text-[20px] font-black text-[#152d1b] tracking-tight">
+                  {category.title}
+                </h4>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {category.skills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1.5 bg-[#f4f2ed] text-[#525252] text-[13px] font-bold rounded-xl border border-transparent hover:border-[#a4c0a9] hover:bg-[#eaf2e5]/30 transition-all duration-300 cursor-default"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
     </section>
   );
 }
+
+const skillsCategories = [
+  {
+    title: "Mobile Development",
+    icon: Smartphone,
+    skills: ["Flutter", "Dart"],
+  },
+  {
+    title: "Backend Development",
+    icon: Server,
+    skills: ["Spring Boot", "Java", "REST APIs", "MySQL"],
+  },
+  {
+    title: "Web Development",
+    icon: Globe,
+    skills: ["Next.js", "React", "Tailwind CSS"],
+  },
+  {
+    title: "SEO Expertise",
+    icon: Search,
+    skills: [
+      "Technical SEO",
+      "On-Page SEO",
+      "Keyword Research",
+      "Google Search Console",
+      "Performance Optimization",
+      "Core Web Vitals",
+      "SEO Audits",
+    ],
+  },
+  {
+    title: "Quality Assurance",
+    icon: ShieldCheck,
+    skills: [
+      "Manual Testing",
+      "Functional Testing",
+      "Regression Testing",
+      "API Testing",
+      "Test Case Design",
+      "Bug Reporting",
+      "Usability Testing",
+    ],
+  },
+  {
+    title: "Tools & Technologies",
+    icon: Wrench,
+    skills: ["Git", "GitHub", "Android Studio", "IntelliJ IDEA", "Postman", "Figma", "VS Code"],
+  },
+];
